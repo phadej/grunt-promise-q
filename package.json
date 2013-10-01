@@ -1,0 +1,50 @@
+{
+  "name": "grunt-promise-q",
+  "description": "Write asynchronous grunt tasks with Q promises.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/phadej/grunt-promise-q",
+  "author": {
+    "name": "Oleg Grenrus",
+    "email": "oleg.grenrus@iki.fi",
+    "url": "http://oleg.fi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/phadej/grunt-promise-q.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phadej/grunt-promise-q/issues"
+  },
+  "licenses": [
+    {
+      "type": "BSD3",
+      "url": "https://github.com/phadej/grunt-promise-q/blob/master/LICENSE-BSD3"
+    }
+  ],
+  "main": "lib/grunt-promise-q",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "q": "~0.9.7"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1",
+    "q-io": "~1.10.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "grunt",
+    "async",
+    "promise",
+    "q"
+  ]
+}
