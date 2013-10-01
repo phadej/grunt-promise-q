@@ -1,4 +1,5 @@
-# grunt-promise-q
+# grunt-promise-q [![Build Status](https://secure.travis-ci.org/phadej/grunt-promise-q.png?branch=master)](http://travis-ci.org/phadej/grunt-promise-q)
+
 
 > Write asynchronous grunt tasks with Q promises.
 
