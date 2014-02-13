@@ -8,8 +8,8 @@ var path = require("path");
 module.exports = function (grunt) {
     asyncTask.registerMulti(grunt, "promiseq", "promise q test task", function () {
         var options = this.options({
-            punctuation: '.',
-            separator: ', ',
+            punctuation: ".",
+            separator: ", ",
         });
 
         var ps = this.files.map(function (f) {
@@ -43,7 +43,7 @@ module.exports = function (grunt) {
                     });
             })
             .then(function () {
-                grunt.log.writeln('File "' + f.dest + '" created.');
+                grunt.log.writeln("File '" + f.dest + "' created.");
             });
         });
 
